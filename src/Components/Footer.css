@@ -1,0 +1,14 @@
+.footer-container {
+  height: 6vh;
+  background-color: #252424;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-text {
+  margin: 0 1em;
+  font-size: 0.9em;
+}

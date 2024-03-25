@@ -1,0 +1,46 @@
+.info-container {
+  width: 100%;
+  min-height: 40em;
+  padding: 2em;
+  background: linear-gradient(to top left, white, #bbfaf3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-title {
+  margin: 1em;
+  font-size: 2.3em;
+}
+
+.info-text {
+  width: 93%;
+  margin: 1em auto;
+  line-height: 1.6em;
+  font-size: 1.4em;
+}
+
+@media (max-width: 715px) {
+  .info-title {
+    font-size: 2em;
+    margin: 1em 0;
+  }
+  .info-text {
+    margin: 1em 0.5em;
+    font-size: 1.2em;
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .info-container {
+    padding: 2em 1em;
+  }
+  .info-title {
+    font-size: 1.7em;
+  }
+  .info-text {
+    font-size: 1em;
+  }
+}
