@@ -5,6 +5,7 @@ import Polishing from "../assets/polishing.png";
 import Sealant from "../assets/shineFrontFender.png";
 import FabricLeather from "../assets/interiorFrontSeats.png";
 import AntiRain from "../assets/antiRain.png";
+import Engine from "../assets/engineClean.jpg";
 
 import "./Addons.css";
 
@@ -41,7 +42,7 @@ const Addons = ({ language }) => {
             <div className="addon-card">
               <img src={Sealant} className="addon-card-img" />
               <h2 className="addon-title">Paint Sealant/Wax</h2>
-              <p className="addon-price">$95</p>
+              <p className="addon-price">$100</p>
             </div>
             {/* <div className="addon-card">
               <img src={FabricLeather} className="addon-card-img" />
@@ -52,6 +53,11 @@ const Addons = ({ language }) => {
               <img src={AntiRain} className="addon-card-img" />
               <h2 className="addon-title">AQUAVELOX - Glass Protection</h2>
               <p className="addon-price">$30</p>
+            </div>
+            <div className="addon-card">
+              <img src={Engine} className="addon-card-img" />
+              <h2 className="addon-title">Engine Cleaning</h2>
+              <p className="addon-price">$100</p>
             </div>
           </div>
           <div className="divider"></div>

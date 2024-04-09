@@ -20,7 +20,8 @@
 }
 
 .addon-card {
-  min-height: 500px;
+  min-height: 550px;
+  max-width: 365px;
   width: 35%;
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 8px;
@@ -30,6 +31,7 @@
 
 .addon-card-img {
   width: 100%;
+  max-height: 344px;
 }
 
 .addon-title {
