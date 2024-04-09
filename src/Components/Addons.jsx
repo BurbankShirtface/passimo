@@ -28,26 +28,26 @@ const Addons = ({ language }) => {
           </a> */}
           <h1 className="addon-section-title">Add-ons:</h1>
           <div className="addon-container">
-            <div className="addon-card">
+            {/* <div className="addon-card">
               <img src={InteriorShampoo} className="addon-card-img" />
               <h2 className="addon-title">Complete Shampoo</h2>
               <p className="addon-price">$160</p>
-            </div>
-            <div className="addon-card">
+            </div> */}
+            {/* <div className="addon-card">
               <img src={Polishing} className="addon-card-img" />
               <h2 className="addon-title">Polishing</h2>
               <p className="addon-price">$100</p>
-            </div>
+            </div> */}
             <div className="addon-card">
               <img src={Sealant} className="addon-card-img" />
               <h2 className="addon-title">Paint Sealant/Wax</h2>
-              <p className="addon-price">$150</p>
+              <p className="addon-price">$95</p>
             </div>
-            <div className="addon-card">
+            {/* <div className="addon-card">
               <img src={FabricLeather} className="addon-card-img" />
               <h2 className="addon-title">Upholstery & Leather Treatment</h2>
               <p className="addon-price">$50</p>
-            </div>
+            </div> */}
             <div className="addon-card">
               <img src={AntiRain} className="addon-card-img" />
               <h2 className="addon-title">AQUAVELOX - Glass Protection</h2>

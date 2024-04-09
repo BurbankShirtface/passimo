@@ -27,6 +27,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
   /* border: 1px solid black; */
   max-width: 1320px;
 }
@@ -36,7 +37,7 @@
   padding: 1em;
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 8px;
-  max-width: 30%;
+  width: 40%;
   min-height: 575px;
   display: flex;
   flex-direction: column;

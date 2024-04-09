@@ -10,7 +10,7 @@ const Packages = ({ language }) => {
           <h1 className="packages-section-title">What We Offer</h1>
           <div className="packages-container">
             <div className="package-card">
-              <h1 className="package-title">Basic Package</h1>
+              <h1 className="package-title">Our Base Package</h1>
               <div className="package-text">
                 <ul className="package-list-container">
                   <li className="package-list-item">- Full vacuum</li>
@@ -54,7 +54,7 @@ const Packages = ({ language }) => {
                 </div>
               </div>
             </div>
-            <div className="package-card">
+            {/* <div className="package-card">
               <div className="package-title-container">
                 <h1 className="package-title">Premium Package</h1>
                 <p className="package-subtext">
@@ -85,8 +85,8 @@ const Packages = ({ language }) => {
                   <h4 className="package-price">$345</h4>
                 </div>
               </div>
-            </div>
-            <div className="package-card">
+            </div> */}
+            {/* <div className="package-card">
               <div className="package-title-container">
                 <h1 className="package-title">Luxury Package</h1>
                 <p className="package-subtext">
@@ -122,7 +122,7 @@ const Packages = ({ language }) => {
                   <h4 className="package-price">$495</h4>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           <p className="fineprint">
             *Prices subject to change based on condition. We will get your
@@ -134,7 +134,7 @@ const Packages = ({ language }) => {
           <h1 className="packages-section-title">Ce Que Nous Offrons</h1>
           <div className="packages-container">
             <div className="package-card">
-              <h1 className="package-title">Paquet de base</h1>
+              <h1 className="package-title">Notre forfait de base</h1>
               <div className="package-text">
                 <ul className="package-list-container">
                   <li className="package-list-item">- Vide total</li>
@@ -180,7 +180,7 @@ const Packages = ({ language }) => {
                 </div>
               </div>
             </div>
-            <div className="package-card">
+            {/* <div className="package-card">
               <div className="package-title-container">
                 <h1 className="package-title">Forfait Premium</h1>
                 <p className="package-subtext">
@@ -213,8 +213,8 @@ const Packages = ({ language }) => {
                   <h4 className="package-price">$345</h4>
                 </div>
               </div>
-            </div>
-            <div className="package-card">
+            </div> */}
+            {/* <div className="package-card">
               <div className="package-title-container">
                 <h1 className="package-title">Forfait Luxe</h1>
                 <p className="package-subtext">
@@ -252,7 +252,7 @@ const Packages = ({ language }) => {
                   <h4 className="package-price">$495</h4>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           <p className="fineprint">
             *Prix sujets à changement selon les conditions. Nous obtiendrons
